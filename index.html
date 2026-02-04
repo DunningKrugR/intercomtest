@@ -42,12 +42,34 @@
       line-height: 1.4;
       color: #1c1917;
     }
+
+    .footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 1.5rem 2rem;
+      font-size: 0.9375rem;
+      color: #57534e;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .footer-arrow {
+      font-size: 1.25rem;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>WELCOME<br>TO<br>THE<br>EDGE<br>INTERCOM<br>TEST</h1>
   </div>
+
+  <footer class="footer">
+    <span class="footer-arrow">→</span>
+    <span>tap the chat bubble to start</span>
+  </footer>
 
   <!-- Intercom Chat Widget (Basic JavaScript) -->
   <script>
